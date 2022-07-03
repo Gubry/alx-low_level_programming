@@ -7,20 +7,16 @@
 
 int main(void)
 {
-	char ch = 'a';
+	int ch;
 
-	char CH = 'A';
-
-	int n = 0;
-
-	while (n < 26)
+	for (ch = 97; ch <= 122; ch++)
 	{
 		putchar(ch);
-		putchar(CH);
-		ch++;
-		CH++;
-		n++;
 	}
-	putchar('\n');
+	for (ch = 65; ch <= 90; ch++)
+	{
+		putchar(ch);
+	}
+	putchar(10);
 	return (0);
 }
