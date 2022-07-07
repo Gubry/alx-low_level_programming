@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
  * main - prints the largest of 3 no
  *
  * Return: Always 0.
  */
+
 int main(void)
 {
 	int a, b, c;
